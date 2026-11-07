@@ -51,5 +51,5 @@ This dataset isn't maintained. If you fork it, keep the rule that made it useful
 - **Attribution:** "TCG & board-game dimensions, Daedal Studio (Tytus Felbor, Alberto
   García de la Torre, Brandon Perrone), 2026, CC BY 4.0". See `CITATION.cff`.
 
-The parametric engine that used this data is archived at {{DAEDAL_REPO_URL}}. The story
+The parametric engine that used this data is archived at https://github.com/TFelbor/daedal-studio. The story
 of the company is at {{SUBSTACK_URL}}.

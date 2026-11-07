@@ -1,4 +1,4 @@
-> **About this document.** This is the research note behind the dataset, written in August–September 2026 by the Daedal Studio team while building a parametric deck-box engine. It is published as written. References to issues, the PRD or the roadmap point to the archived Daedal repository ({{DAEDAL_REPO_URL}}); the roadmap and PRD themselves were internal and are not published.
+> **About this document.** This is the research note behind the dataset, written in August–September 2026 by the Daedal Studio team while building a parametric deck-box engine. It is published as written. References to issues, the PRD or the roadmap point to the archived Daedal repository (https://github.com/TFelbor/daedal-studio); the roadmap and PRD themselves were internal and are not published.
 
 # Dimension KB — research base for PRD F4 (sleeves, cards, dice, magnets, fits)
 
