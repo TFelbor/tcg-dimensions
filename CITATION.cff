@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "TCG & board-game dimensions: sleeves, deck stacks and box interiors"
+type: dataset
+version: "1"
+date-released: 2026-11-17
+license: CC-BY-4.0
+authors:
+  - family-names: Felbor
+    given-names: Tytus
+  - family-names: "García de la Torre"
+    given-names: Alberto
+  - family-names: Perrone
+    given-names: Brandon
+keywords: [trading card games, board games, sleeves, deck box, 3d printing, dimensions]

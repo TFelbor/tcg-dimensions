@@ -1,0 +1,60 @@
+{
+  "dataset": "tcg-dimensions",
+  "file": "sleeves",
+  "schema_version": 1,
+  "license": "CC-BY-4.0",
+  "units": "mm",
+  "notes": [
+    "Design values used by a parametric deck-box engine, not nominal manufacturer sums.",
+    "pitch_mm_per_card is the stack thickness to design for per card, including an air margin over measured stacks.",
+    "Measured anchor: two independent caliper measurements of 100 double-sleeved Commander cards at 66 and 66.7 mm (KMC Hyper Matte + Perfect Fit; Dragon Shield + Perfect Fit). The often-quoted 0.72–0.80 mm per card is not supported by any measured stack.",
+    "Full sourcing per value: docs/dimension-kb-research.md."
+  ],
+  "card_kinds": {
+    "standard": {
+      "width_mm": 63.5,
+      "height_mm": 88.9,
+      "thickness_mm": 0.305,
+      "source": "MTG spec (Draftsim); Pokémon / Lorcana / FaB / One Piece the same size or up to ~1 mm smaller"
+    }
+  },
+  "sleevings": [
+    {
+      "key": "none",
+      "label": "unsleeved",
+      "footprint_mm": null,
+      "pitch_mm_per_card": 0.305,
+      "basis": "0.305 mm/card (bare card thickness, spec)"
+    },
+    {
+      "key": "single",
+      "label": "single-sleeved",
+      "footprint_mm": {
+        "width": 66.0,
+        "height": 91.0
+      },
+      "pitch_mm_per_card": 0.6,
+      "basis": "0.60 mm/card design pitch (derived + air margin)"
+    },
+    {
+      "key": "double",
+      "label": "double-sleeved",
+      "footprint_mm": {
+        "width": 67.0,
+        "height": 92.0
+      },
+      "pitch_mm_per_card": 0.7,
+      "basis": "0.70 mm/card design pitch (two measured 100-card stacks at 66–67 mm)"
+    },
+    {
+      "key": "double_thick",
+      "label": "thick-inner double-sleeved",
+      "footprint_mm": {
+        "width": 67.0,
+        "height": 92.0
+      },
+      "pitch_mm_per_card": 0.8,
+      "basis": "0.80 mm/card design pitch (100 µm thick inners; derived + air margin, no measured stack)"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+sleeving,label,footprint_width_mm,footprint_height_mm,pitch_mm_per_card,basis
+none,unsleeved,63.5,88.9,0.305,"0.305 mm/card (bare card thickness, spec)"
+single,single-sleeved,66.0,91.0,0.6,0.60 mm/card design pitch (derived + air margin)
+double,double-sleeved,67.0,92.0,0.7,0.70 mm/card design pitch (two measured 100-card stacks at 66–67 mm)
+double_thick,thick-inner double-sleeved,67.0,92.0,0.8,"0.80 mm/card design pitch (100 µm thick inners; derived + air margin, no measured stack)"
